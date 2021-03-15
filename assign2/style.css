@@ -1,68 +1,97 @@
-body{
-  margin : 0;
-  padding: 0;
-}
-.container{
-  display: flex;
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Raleway;
 }
 
-h1{
-  margin-left:13%;
+.container {
+	font-weight: 300;
+	display: flex;
+	justify-content: space-around;
 }
 
-.col-1{
-  width: 60%;
-  display: flex;
-  align-items: center;
-  padding: 20px;
-  text-align: center;
+.container p {
+	color: grey;
 }
-.sel{
-  text-align: left;
-  padding-top: 10px;
-  padding-left:60px ;
+
+h1 {
+	margin-left: 13%;
+	margin-top: 50px;
+	font-weight: 800;
 }
-.col-2{
-  /* border: 1px solid lightcoral; */
-  width: 40%;
-  padding: 10px;
+
+.col-1 {
+	width: 55%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	text-align: center;
 }
-.form{  
-  box-shadow:
-  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
-  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
-  0 12.5px 10px rgba(0, 0, 0, 0.06),
-  0 22.3px 17.9px rgba(0, 0, 0, 0.072),
-  0 41.8px 33.4px rgba(0, 0, 0, 0.086),
-  0 100px 80px rgba(0, 0, 0, 0.12);
-  padding:50px 10px;
-  text-align: center;
-  /* border: 1px solid black; */
-  width: 400px;
-  margin: 100px auto;
+
+.sel {
+	text-align: left;
+	padding-top: 10px;
+	padding-left: 60px;
 }
-input{
-  width : 64%;
-  padding: 10px;
-  margin : 10px 0px;
+
+.col-2 {
+	width: 40%;
 }
-.sel{
-  margin: 0;
-  
+
+.form {
+	padding: 30px 10px;
+	text-align: center;
+	/* border: 1px solid black; */
+	width: 400px;
+	margin: 100px auto;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-.options button{
-  background-color: white;
-  border: 1px solid black;
-  width  : 90px;
-  padding: 10px;
-  margin:0;
+
+input {
+	width: 64%;
+	padding: 10px;
+	margin: 10px 0px;
 }
-.submit-btn{
-  border: none;
-  margin-top: 10px;
-  width : 70%;
-  padding: 10px;
-  background-color:rgb(13, 184, 144);
-  color: white;
-  font-size: large;
+
+.sel {
+	margin: 0;
+	margin-bottom: 10px;
 }
+
+.options button {
+	background-color: white;
+	border: 1px solid black;
+	width: 90px;
+	padding: 10px;
+	margin: 0;
+}
+
+.submit-btn {
+	border: none;
+	margin-top: 10px;
+	width: 70%;
+	padding: 10px;
+	background-color: rgb(13, 184, 144);
+	color: white;
+	font-size: large;
+}
+
+img {
+	width: 150px;
+	height: 100px;
+}
+
+a {
+	text-decoration: none;
+	color: rgb(71, 201, 245);
+}
+
+input {
+	border: 1px solid grey;
+}
+
+button:hover {
+	border: 1px solid grey;
+	cursor: pointer;
+}
+
