@@ -1,7 +1,7 @@
 body{
   padding: 0;
   margin: 0;
-  background-color:rgb(39, 148, 238);
+  background: rgb(66, 163, 222);
 }
 
 .container{
@@ -14,17 +14,25 @@ body{
 }
  input{
    width: 175px;
-   margin: 10px 5px;
-   border : none;
-   border-bottom: 0.4px solid black;
+   padding: 5px;
+   margin: 20px 5px;
+   border-color: rgb(213, 207, 207);
+   border-style: none none solid none;
  }
 
 button{
+  border: none;
   font-size: 16px;
-  background-color:rgb(180, 10, 10);
+  background-color: rgb(252, 55, 104);
   color: white;
   margin-top: 20px;
   padding: 5px;
-  width : 175px;
+  width : 200px;
   border-radius: 20px;
 }
+
+.pi,.ui{
+  padding-bottom: 5px;
+  vertical-align: middle;
+}
+

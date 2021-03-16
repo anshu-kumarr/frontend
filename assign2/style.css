@@ -1,0 +1,113 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Raleway;
+}
+
+.container {
+  font-weight: 300;
+  display: flex;
+  justify-content: space-around;
+}
+
+.container p {
+  color: grey;
+}
+
+h1 {
+  margin: 50px 0 50px 170px;
+}
+
+.col-1 {
+  width: 60%;
+  margin-left: 50px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 150px;
+}
+
+.sel {
+  margin-bottom: 10px;
+  text-align: left;
+  padding: 10px 0 0 60px;
+}
+
+.col-2 {
+  width: 40%;
+}
+
+.form {
+  font-family: Raleway;
+  padding: 10px 10px;
+  text-align: center;
+  width: 400px;
+  height: 470px;
+  margin: 100px auto;
+  box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
+}
+
+input {
+  width: 64%;
+  padding: 10px;
+  margin: 10px 0px;
+}
+
+.options button {
+  border: 1px solid rgb(225, 225, 225);
+  background-color: white;
+  width: 90px;
+  padding: 10px;
+  margin: 0;
+}
+
+.submit-btn {
+  margin: 20px 40px;
+  border-style: none;
+  border-radius: 5px;
+  width: 280px;
+  height: 58px;
+  font-size: 17px;
+  font-weight: bold;
+  color: white;
+  background-color: rgb(42, 172, 177);
+}
+
+.contact {
+  font-family: sans-serif;
+  font-weight: 400;
+}
+
+img {
+  width: 150px;
+  height: 100px;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(55, 123, 181);
+}
+
+input {
+  border: 1px solid rgb(225, 225, 225);
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.block-1,
+.block-2,
+.block-3,
+.block-4 {
+  width: 50%;
+}
+
+#img-1,
+#img-1,
+#img-1,
+#img-1 {
+  width: 100px;
+}
